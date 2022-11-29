@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cardparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cardbody{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+    max-width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardimage{
+    width: 100%;
+    display: flex;
+    border-radius: 1rem 1rem  0rem 0rem;
+max-height: 6rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    justify-content: center;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/410/867/750/vector-forest-sunset-forest-sunset-forest-wallpaper-preview.jpg');
+}
+.cardimage>img{
+    margin-top: 5rem ;
+    
+    border: 0.15rem solid white;
+    border-radius: 100%;
+    max-height: 5rem;
+    max-width: 5rem;
+    object-fit: cover;
+    
+}
+.cardtext{
+    padding: 1rem;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+}
+.cardtext>h2{
+    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+}
+.cardtext>p{
+font-size: 0.8rem;
+color: grey;
+}

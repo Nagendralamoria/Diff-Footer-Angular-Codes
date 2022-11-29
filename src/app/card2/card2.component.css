@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cardparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cardbody{
+    height: 20rem;
+    width: 15rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url('https://images2.alphacoders.com/108/1081121.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1rem;
+}
+.cardbody>button{
+    padding: 0.5rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 1rem;
+    background-color: #BDF1E4;
+   
+}
+.cardbody>button:hover{
+    background-color: #031E16;
+    color: #BDF1E4;
+    cursor: pointer;
+}
